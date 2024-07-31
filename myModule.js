@@ -1,15 +1,18 @@
-
-
+// Creating a Custom Module
+// Importing the functions from another file
 // Function to be exported
-export function greet(name) {
+function greet(name) {
     return `Hello, ${name}!`;
   }
   
   // Another function to be exported
-  export function add(a, b) {
+  function add(a, b) {
     return a + b;
   }
   
-
- 
+  // Exporting the functions
+  module.exports = {
+    greet,
+    add
+  };
   
