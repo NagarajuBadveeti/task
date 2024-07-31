@@ -34,7 +34,7 @@
 import express, { Request, Response } from 'express';
 import Language from '../db/models/language';
 
-const languageRoute = express.Router();
+const languageRoute = express.Router(); 
 
 languageRoute.use(express.json());
 
